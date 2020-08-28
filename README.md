@@ -2,7 +2,7 @@
 
 ## Description
 
-This is an assignment go GamingMonk.
+This is an assignment of GamingMonk.
 
 ## Installation
 - Clone the repo in your terminal by clicking the _green_ clone or download button at the top right and copyin the url
