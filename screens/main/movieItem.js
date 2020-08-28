@@ -20,9 +20,11 @@ export default class MyMovieItem extends React.PureComponent {
       )
     } else if (item.id) {
       return (
-        <View style={styles.mb10}>
+        <View style={[styles.movieItemContainer, styles.mb10]}>
           <View style={{ flexDirection: 'row' }}>
-            <Image style={styles.img} source={{ uri: IMAGE_DOMAIN_URL + item.poster_path }} />
+            <View style={styles.imgContainer}>
+              <Image style={styles.img} resizeMode='contain' source={{ uri: IMAGE_DOMAIN_URL + item.poster_path }} />
+            </View>
             <View style={styles.fullFlex}>
               <Text style={styles.tittleText}>{item.title}</Text>
               <Text style={styles.desciptionText}>{item.overview}</Text>
@@ -43,7 +45,7 @@ export default class MyMovieItem extends React.PureComponent {
               }}
               style={[styles.center, styles.like]}
             >
-              <Text>{item.dislike ? 'DisLiked' : 'DisLike'}</Text>
+              <Text>{item.dislike ? 'Disliked' : 'Dislike'}</Text>
             </TouchableHighlight>
           </View>
         </View>

@@ -48,7 +48,7 @@ export default StyleSheet.create({
   likeContainer: {
     flexDirection: 'row',
     height: 36,
-    marginVertical: 5
+    marginVertical: 10
   },
   like: {
     flex: 1,
@@ -58,6 +58,10 @@ export default StyleSheet.create({
   },
   tittleText: { marginLeft: 10, fontSize: 12 },
   desciptionText: { marginHorizontal: 10, fontSize: 10 },
-  img: { height: 100, width: 100 },
-  mb10: { marginBottom: 10 }
+  img: { height: '100%' },
+  imgContainer: { height: 100, width: 80 },
+  mb10: { marginBottom: 10 },
+  movieItemContainer: {
+    margin: 5
+  }
 })
