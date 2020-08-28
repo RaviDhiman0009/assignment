@@ -1,8 +1,8 @@
-# Example React App
+# Assignment App
 
 ## Description
 
-This is a boilerplate application to render a list in React. It was built as a project to show people who might not be familiar with the syntax in React how to create and import components, make an api call, and render a list based on that call.
+This is an assignment go GamingMonk.
 
 ## Installation
 - Clone the repo in your terminal by clicking the _green_ clone or download button at the top right and copyin the url
